@@ -32,7 +32,6 @@ Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan Univers
 # About me
 
 - Associate Editor 
-- 
 
 ---
 
