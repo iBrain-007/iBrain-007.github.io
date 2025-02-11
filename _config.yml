@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Lei Mou"
+title                    : "Home"
 title_separator          : "-"
 name                     : # &name "Lei Mou"
 description              : &description "Machine Learning / Computer Vision / Medical Imaging / AI in Healthcare"
