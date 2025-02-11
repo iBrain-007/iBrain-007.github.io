@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Lei Mou"
+title: "Homepage of Lei Mou"
 author_profile: true
 redirect_from: 
   - /about/
