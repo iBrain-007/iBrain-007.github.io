@@ -10,15 +10,15 @@ redirect_from:
 <p align="center"> Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences  
 </p>
 <p align="center">
-    <a style="color:#33A1C9;">[Object detection]</a>
+    <a>[Object detection]</a>
     -
-    <a style="color:#33A1C9;">[Image segmentation]</a>
+    <a>[Image segmentation]</a>
     -
-    <a style="color:#33A1C9;">[Imaging]</a>
+    <a>[Imaging]</a>
     -
-    <a style="color:#33A1C9;">[Neural networks]</a>
+    <a>[Neural networks]</a>
     -
-    <a style="color:#33A1C9;">[Neural networks]</a>
+    <a>[Neural networks]</a>
 </p>
 
 ---
