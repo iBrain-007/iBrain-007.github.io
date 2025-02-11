@@ -23,10 +23,10 @@ repository               : "iBrain-007/iBrain-007.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Lei Mou"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "Assistant Professor"
+  location         : "Ningbo Institute of Materials Technology and Engineering, Chinese Academy of  Sciences, China"
   employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
