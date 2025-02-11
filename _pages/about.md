@@ -20,9 +20,6 @@ redirect_from:
     -
     <a style="color:#ff4f00;">[Neural networks]</a>
 </p>
-<p align="center">
-    <img width="400px" src="../images/topic.png" align="center"/>
-</p>
 
 ---
 
