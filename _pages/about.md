@@ -7,9 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<p align="center">
-    <h1 align="center"> Homepage of Lei Mou</h1>
-</p>
 
 <p align="center"> Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences </p>
 
