@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-<p align="center"> Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences </p>
-
+<p align="center"> Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences  
+</p>
 <p align="center">
     <a style="color:purple;">[Object detection]</a>
     -
@@ -19,7 +19,10 @@ redirect_from:
     <a style="color:#c93f38;">[Neural networks]</a>
     -
     <a style="color:#ff4f00;">[Neural networks]</a>
-    </p>
+</p>
+<p align="center">
+    <img width="400px" src="../images/topic.png" align="center"/>
+</p>
 
 ---
 
