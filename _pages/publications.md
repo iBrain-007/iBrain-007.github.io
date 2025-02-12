@@ -14,6 +14,10 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}</ul>
 
+<p align="center">
+ <img width="500px" src="../images/topic.png" align="center" alt="Publications" />
+</p>
+
 # Selected Publications
 
 1. **Mou Lei**, Zhao Yitian, Chen Li, Cheng Jun, Gu Zaiwang, Hao Huaying, Qi Hong, Zheng Yalin, Frangi Alejandro, Liu Jiang. CS-Net: Channel and spatial attention network for curvilinear structure segmentation; proceedings of the Medical Image Computing and Computer Assisted Intervention–MICCAI, 2019 [C]. Springer. [![](https://img.shields.io/badge/Paper-blue)](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80) [![](https://img.shields.io/badge/Code-orange)](https://github.com/iMED-Lab/CS-Net)
