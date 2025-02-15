@@ -36,6 +36,7 @@ Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan Univers
 
 # News
 
+- 2025/02/15: One paper has been accepted by Journal of Biomedical and Health Informatics (**JHBI**) [<font color=blue>OCT / Segmenation</font>]
 - 2025/02/08: One paper has been accepted by IEEE Transactions on Medical Imaging (**TMI 2025**) <font color=blue>[DSA / Segmentation]</font>
 - 2025/02/08: One paper has been accepted by IEEE Transactions on Signal and Information Processing over Networks (**TSIPN 2025**) <font color=green>[MRI / Diagnosis]</font>
 - 2025/01/28: One paper has been accepted by Frontiers in Cell and Developmental Biology <font color=blue>[OCT / Segmentation]</font>
