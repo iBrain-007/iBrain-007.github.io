@@ -7,19 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-<p align="center"> Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences  
+<p align="left">
+    <a>[Medical Imaging]</a>
+    -
+    <a>[Segmentation]</a>
+    -
+    <a>[Diagnosis]</a>
+    -
+    <a>[AI in Healthcare]</a>
+    -
+    <a>[Multi-modal]</a>
 </p>
-<p align="center">
-    <a>[Object detection]</a>
-    -
-    <a>[Image segmentation]</a>
-    -
-    <a>[Imaging]</a>
-    -
-    <a>[Neural networks]</a>
-    -
-    <a>[Neural networks]</a>
-</p>
+
 
 ---
 
