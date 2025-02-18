@@ -61,7 +61,6 @@ redirect_from:
 
 <style>
 .light-bio {
-    background: rgba(255, 255, 255, 0.9);
     border-radius: 12px;
     padding: 1.1rem;
     margin: 1.2rem 0;
