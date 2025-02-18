@@ -84,7 +84,7 @@ redirect_from:
     font-family: 'Segoe UI', system-ui, sans-serif;
     font-size: 1.0rem;
     line-height: 1.2rem;
-    color: #2d3748;
+    color: #000000;
     text-align: justify;
     hyphens: auto;
 }
