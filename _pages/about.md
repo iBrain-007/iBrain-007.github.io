@@ -11,7 +11,7 @@ redirect_from:
 .gradient-nav {
     --gradient-start: #0066ff;
     --gradient-end: #00e0ff;
-    padding: 1rem 0;
+    padding: 0rem 0;
 }
 
 .gradient-nav a {
@@ -22,7 +22,7 @@ redirect_from:
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    padding: 0.3rem 0.8rem;
+    padding: 0.1rem 0.1rem;
     position: relative;
     transition: all 0.3s ease;
 }
