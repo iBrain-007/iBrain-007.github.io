@@ -22,7 +22,6 @@ redirect_from:
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    padding: 0.1rem 0.1rem;
     position: relative;
     transition: all 0.3s ease;
 }
