@@ -18,8 +18,6 @@ redirect_from:
     -
     <a>[Multi-modal]</a>
 </p>
-
-
 ---
 
 # Biography
