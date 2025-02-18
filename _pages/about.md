@@ -7,24 +7,58 @@ redirect_from:
   - /about.html
 ---
 
-<p align="left">
-    <a>[Medical Imaging]</a>
-    -
-    <a>[Segmentation]</a>
-    -
-    <a>[Diagnosis]</a>
-    -
-    <a>[AI in Healthcare]</a>
-    -
-    <a>[Multi-modal]</a>
-</p>
+<style>
+.gradient-nav {
+    --gradient-start: #0066ff;
+    --gradient-end: #00e0ff;
+    padding: 1rem 0;
+}
+
+.gradient-nav a {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 0.3rem 0.8rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.gradient-nav a:hover {
+    transform: translateY(-2px);
+    text-shadow: 0 4px 12px rgba(0, 103, 255, 0.3);
+}
+
+.gradient-nav a:not(:last-child)::after {
+    content: "－";
+    color: rgba(0, 103, 255, 0.4);
+    margin-left: 1rem;
+    font-weight: 300;
+    display: inline-block;
+    transform: scale(1.4);
+}
+
+@media (max-width: 768px) {
+    .gradient-nav a {
+        font-size: 0.9rem;
+        padding: 0.2rem 0.5rem;
+    }
+}
+</style>
+
+<div class="gradient-nav" align="left">
+    <a>Medical Imaging</a>
+    <a>Segmentation</a>
+    <a>Diagnosis</a>
+    <a>AI in Healthcare</a>
+    <a>Multi-modal</a>
+</div>
 ---
 
 # Biography
-
-<p style="text-align: justify;">
-Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan University of Science and Technology in 2017, followed by an M.Sc. degree in Software Engineering from the same institution in 2020. He completed his Ph.D. in Mechanical Manufacturing and Automation at the University of Chinese Academy of Sciences in 2024 under the supervision of Prof. <a href="https://ytianzhao.github.io/">Yitian Zhao</a>. His research interests focus on intelligent medical imaging analysis and the innovative application of artificial intelligence in healthcare. His work primarily encompasses multimodal data analysis and the development of intelligent algorithms based on fundus imaging. By integrating deep learning techniques with radiomics approaches, he aims to identify early biomarkers of cardiovascular and cerebrovascular diseases and to develop clinically applicable disease risk prediction models and computer-aided diagnostic systems.
-</p>
 
 <style>
 .light-bio {
