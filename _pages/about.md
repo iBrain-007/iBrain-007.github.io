@@ -33,7 +33,7 @@ Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan Univers
     padding: 1.2rem;
     margin: 1rem 0;
     border: 1px solid rgba(0, 103, 255, 0.15);
-    box-shadow: 0 8px 32px rgba(0, 103, 255, 0.1);
+ 
     position: relative;
     overflow: hidden;
 }
