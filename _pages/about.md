@@ -83,7 +83,7 @@ redirect_from:
     z-index: 1;
     font-family: 'Segoe UI', system-ui, sans-serif;
     font-size: 1.05rem;
-    line-height: 1.7;
+    line-height: 1.2;
     color: #2d3748;
     text-align: justify;
     hyphens: auto;
