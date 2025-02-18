@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Lei Mou - AI in Healthcare Researcher</title>
+    <style>
+        :root {
+            --primary: #00f7ff;
+            --secondary: #0066ff;
+            --background: linear-gradient(45deg, #0a0a2e, #000013);
+            --glass: rgba(255, 255, 255, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: var(--background);
+            color: #ffffff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* 导航样式 */
+        .nav-tags {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            z-index: 1000;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        .nav-tags a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: 500;
+            transition: 0.3s;
+            position: relative;
+        }
+
+        .nav-tags a:hover {
+            color: #fff;
+            text-shadow: 0 0 10px var(--primary);
+        }
+
+        /* 内容卡片 */
+        .card {
+            background: var(--glass);
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 103, 255, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* 时间线样式 */
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2px;
+            height: 100%;
+            background: var(--primary);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            padding-left: 30px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 5px;
+            width: 16px;
+            height: 16px;
+            background: var(--secondary);
+            border-radius: 50%;
+            border: 2px solid var(--primary);
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-left: 1rem;
+        }
+
+        .blue-tag {
+            background: rgba(0, 247, 255, 0.15);
+            color: var(--primary);
+        }
+
+        .green-tag {
+            background: rgba(0, 255, 106, 0.15);
+            color: #00ff6a;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .nav-tags a {
+                margin: 0 0.5rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-tags">
+        <div class="container" style="text-align: center;">
+            <a href="#">Medical Imaging</a> -
+            <a href="#">Segmentation</a> -
+            <a href="#">Diagnosis</a> -
+            <a href="#">AI in Healthcare</a> -
+            <a href="#">Multi-modal</a>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top: 80px;">
+        <!-- Biography Section -->
+        <section class="card">
+            <h1>Biography</h1>
+            <p>Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan University of Science and Technology in 2017, followed by an M.Sc. degree in Software Engineering from the same institution in 2020. He completed his Ph.D. in Mechanical Manufacturing and Automation at the University of Chinese Academy of Sciences in 2024 under the supervision of Prof. <a href="https://ytianzhao.github.io/">Yitian Zhao</a>. His research interests focus on intelligent medical imaging analysis and the innovative application of artificial intelligence in healthcare. His work primarily encompasses multimodal data analysis and the development of intelligent algorithms based on fundus imaging. By integrating deep learning techniques with radiomics approaches, he aims to identify early biomarkers of cardiovascular and cerebrovascular diseases and to develop clinically applicable disease risk prediction models and computer-aided diagnostic systems.</p>
+        </section>
+
+        <!-- About Section -->
+        <section class="card">
+            <h1>About me</h1>
+            <ul class="timeline">
+                <li class="timeline-item">Associate Editor</li>
+            </ul>
+        </section>
+
+        <!-- News Section -->
+        <section class="card">
+            <h1>News</h1>
+            <div class="timeline">
+                <div class="timeline-item">
+                    2025/02/15: One paper has been accepted by Journal of Biomedical and Health Informatics (JHBI) 
+                    <span class="tag blue-tag">OCT / Segmentation</span>
+                </div>
+                <!-- 其他新闻条目结构类似 -->
+            </div>
+        </section>
+    </div>
+</body>
+</html>
