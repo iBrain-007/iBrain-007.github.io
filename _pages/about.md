@@ -61,11 +61,7 @@ redirect_from:
 
 <style>
 .light-bio {
-    border-radius: 12px;
-    padding: 1.1rem;
-    margin: 1.2rem 0;
-    position: relative;
-    overflow: hidden;
+    
 }
 
 .light-bio::before {
