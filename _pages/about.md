@@ -64,20 +64,20 @@ redirect_from:
     position: relative;
     padding: 0 0 1.0rem 2.0rem;
     border-left: 2px solid rgba(127, 127, 127, 0.25);
-    margin-left: 1rem;
+    margin-left: 1.0rem;
 }
 
 .news-item::before {
     content: "📌";
     position: absolute;
-    left: -1.05rem;
-    padding: 2px;
+    left: -0.8rem;
+    padding: 0px;
 }
 
 .news-date {
     color: #666;
     font-size: 0.95rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
 }
 
 </style>
