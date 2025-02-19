@@ -55,7 +55,6 @@ redirect_from:
 /* 传记段落优化 */
 .bio {
     line-height: 1.6;
-    font-size: 1.05rem;
     padding: 1.5rem;
     border-radius: 5px;
     border: 1px solid rgba(0,103,255,0.1);
