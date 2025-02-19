@@ -89,8 +89,6 @@ redirect_from:
     <a>AI in Healthcare</a>
 </div>
 
-<div class="container">
-
 <h1>Biography</h1>
 
 <p class="bio">
