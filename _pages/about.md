@@ -27,6 +27,7 @@ redirect_from:
 .gradient-nav a {
     font-family: 'Inter', system-ui, sans-serif;
     font-weight: 300;
+    font-size: 0.8rem;
     text-decoration: none;
     background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
     -webkit-background-clip: text;
