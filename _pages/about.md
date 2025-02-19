@@ -26,7 +26,7 @@ redirect_from:
 
 .gradient-nav a {
     font-family: 'Inter', system-ui, sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     text-decoration: none;
     background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
     -webkit-background-clip: text;
@@ -42,12 +42,6 @@ redirect_from:
     background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
     color: white !important;
     box-shadow: 0 4px 12px rgba(0,103,255,0.15);
-}
-
-.gradient-nav a::after {
-    color: rgba(0,103,255,0.2);
-    margin: 0 1rem;
-    transform: scale(1.2);
 }
 
 /* 内容容器优化 */
