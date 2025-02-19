@@ -17,8 +17,6 @@ redirect_from:
 /* 增强导航栏设计 */
 .gradient-nav {
     padding: 1.5rem 0;
-    background: rgba(255,255,255,0.95);
-    box-shadow: 0 4px 20px rgba(0,103,255,0.08);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -26,7 +24,7 @@ redirect_from:
 
 .gradient-nav a {
     font-family: 'Inter', system-ui, sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 0.8rem;
     text-decoration: none;
     background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
