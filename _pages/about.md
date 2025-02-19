@@ -16,10 +16,10 @@ redirect_from:
 
 /* 增强导航栏设计 */
 .gradient-nav {
-    padding: 1.5rem 0;
+    padding: 1.0rem 0;
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 50;
 }
 
 .gradient-nav a {
