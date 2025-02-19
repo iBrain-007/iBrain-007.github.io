@@ -16,7 +16,8 @@ redirect_from:
 
 /* 增强导航栏设计 */
 .gradient-nav {
-    background: rgba(255,255,255,0.9);
+    padding: 1.5rem 0;
+    background: rgba(255,255,255,0.95);
     box-shadow: 0 4px 20px rgba(0,103,255,0.08);
     position: sticky;
     top: 0;
