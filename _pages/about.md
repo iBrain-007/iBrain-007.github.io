@@ -13,7 +13,6 @@ redirect_from:
     --gradient-end: #00e0ff;
     padding: 0rem 0;
 }
-
 .gradient-nav a {
     font-family: 'Segoe UI', sans-serif;
     font-weight: 600;
@@ -59,63 +58,10 @@ redirect_from:
 
 # Biography
 
-<style>
-.light-bio {
-    
-}
+<p style="text-indent:2em">
+Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan University of Science and Technology in 2017, followed by an M.Sc. degree in Software Engineering from the same institution in 2020. He completed his Ph.D. in Mechanical Manufacturing and Automation at the University of Chinese Academy of Sciences in 2024 under the supervision of Prof. <a href="https://ytianzhao.github.io/">Yitian Zhao</a>. His research interests focus on intelligent medical imaging analysis and the innovative application of artificial intelligence in healthcare. His work primarily encompasses multimodal data analysis and the development of intelligent algorithms based on fundus imaging. By integrating deep learning techniques with radiomics approaches, he aims to identify early biomarkers of cardiovascular and cerebrovascular diseases and to develop clinically applicable disease risk prediction models and computer-aided diagnostic systems.
+</p>
 
-.light-bio::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 200%;
-    height: 100%;
-    background: linear-gradient(45deg, 
-        rgba(0, 247, 255, 0.03) 0%,
-        rgba(0, 103, 255, 0.05) 50%,
-        rgba(0, 247, 255, 0.03) 100%);
-    z-index: 0;
-}
-
-.light-bio p {
-    position: relative;
-    z-index: 1;
-    font-family: 'Segoe UI', system-ui, sans-serif;
-    font-size: 1.0rem;
-    line-height: 1.2rem;
-    color: #000000;
-    text-align: justify;
-    hyphens: auto;
-}
-
-.light-bio a {
-    color: #0066ff;
-    text-decoration: none;
-    background: linear-gradient(45deg, #0066ff, #00c1ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-
-.light-bio a:hover {
-    text-shadow: 0 2px 8px rgba(0, 103, 255, 0.2);
-}
-
-@media (max-width: 768px) {
-    .light-bio {
-        padding: 1.2rem;
-        margin: 1.5rem 0;
-    }
-}
-</style>
-
-<div class="light-bio">
-    <p>
-        Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan University of Science and Technology in 2017, followed by an M.Sc. degree in Software Engineering from the same institution in 2020. He completed his Ph.D. in Mechanical Manufacturing and Automation at the University of Chinese Academy of Sciences in 2024 under the supervision of Prof. <a href="https://ytianzhao.github.io/">Yitian Zhao</a>. His research interests focus on intelligent medical imaging analysis and the innovative application of artificial intelligence in healthcare. His work primarily encompasses multimodal data analysis and the development of intelligent algorithms based on fundus imaging. By integrating deep learning techniques with radiomics approaches, he aims to identify early biomarkers of cardiovascular and cerebrovascular diseases and to develop clinically applicable disease risk prediction models and computer-aided diagnostic systems.
-    </p>
-</div>
 
 # About me
 
