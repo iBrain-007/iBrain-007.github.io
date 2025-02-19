@@ -112,7 +112,7 @@ Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan Univers
 ---
 
 <div style="background: #f3f9ff; padding: 1.5rem; border-radius: 5px; margin: 1.5rem 0;">
-- 🖋️ Associate Editor - IEEE Transactions on Medical Imaging (2024-Present)
+- 🖋️ <strong>Associate Editor</strong> - IEEE Transactions on Medical Imaging (2024-Present)
 </div>
 
 # News
