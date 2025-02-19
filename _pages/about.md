@@ -115,25 +115,25 @@ Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan Univers
 
 <div class="news-item">
     <div class="news-date">2025/02/08</div>
-    One paper has beed accepted by <strong>IEEE Transactions on Signal and Information Processing over Networks (TSIPN) <span style="color: #00C853;">[MRI/Diagnosis]</span>
+    One paper has beed accepted by <strong>IEEE Transactions on Signal and Information Processing over Networks (TSIPN)<strong> <span style="color: #00C853;">[MRI/Diagnosis]</span>
 </div>
 
 <div class="news-item">
     <div class="news-date">2025/01/28</div>
-    One paper has beed accepted by <strong>Frontiers in Cell and Developmental Biology <span style="color: #2A7FFF;">[OCT/Segmentation]</span>
+    One paper has beed accepted by <strong>Frontiers in Cell and Developmental Biology<strong> <span style="color: #2A7FFF;">[OCT/Segmentation]</span>
 </div>
 
 <div class="news-item">
     <div class="news-date">2025/01/16</div>
-    One paper has beed accepted by <strong>IEEE Transactions on Medical Imaging (TMI) <span style="color: #2A7FFF;">[OCT/Segmentation]</span>
+    One paper has beed accepted by <strong>IEEE Transactions on Medical Imaging (TMI)<strong> <span style="color: #2A7FFF;">[OCT/Segmentation]</span>
 </div>
 
 <div class="news-item">
     <div class="news-date">2025/01/03</div>
-    One paper has beed accepted by <strong>IEEE International Symposium on Biomedical Imaging (ISBI2025) <span style="color: #2A7FFF;">[IVCM/Segmentation]</span>
+    One paper has beed accepted by <strong>IEEE International Symposium on Biomedical Imaging (ISBI2025)<strong> <span style="color: #2A7FFF;">[IVCM/Segmentation]</span>
 </div>
 
 <div class="news-item">
     <div class="news-date">2024/12/04</div>
-    One paper has beed accepted by <strong>IEEE Transactions on Medical Imaging (TMI) <span style="color: #2A7FFF;">[TOF-MRA/Segmentation]</span>
+    One paper has beed accepted by <strong>IEEE Transactions on Medical Imaging (TMI)<strong> <span style="color: #2A7FFF;">[TOF-MRA/Segmentation]</span>
 </div>
