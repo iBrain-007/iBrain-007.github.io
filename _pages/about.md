@@ -28,8 +28,7 @@ redirect_from:
 }.gradient-nav a:not(:last-child)::after {
     content: "－";
     color: rgba(0, 103, 255, 0.4);
-    margin-left: 0rem;
-    font-weight: 300;
+    font-weight: 600;
     display: inline-block;
     transform: scale(1.4);
 }@media (max-width: 768px) {
