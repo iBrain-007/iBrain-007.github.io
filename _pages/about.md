@@ -9,11 +9,10 @@ redirect_from:
 
 <style>
 .gradient-nav {
-    --gradient-start: #0066ff;
-    --gradient-end: #00e0ff;
+    --gradient-start:rgb(255, 0, 212);
+    --gradient-end:rgb(0, 255, 238);
     padding: 0rem 0;
-}
-.gradient-nav a {
+}.gradient-nav a {
     font-family: 'Segoe UI', sans-serif;
     font-weight: 600;
     text-decoration: none;
@@ -23,23 +22,17 @@ redirect_from:
     color: transparent;
     position: relative;
     transition: all 0.3s ease;
-}
-
-.gradient-nav a:hover {
+}.gradient-nav a:hover {
     transform: translateY(-2px);
     text-shadow: 0 4px 12px rgba(0, 103, 255, 0.3);
-}
-
-.gradient-nav a:not(:last-child)::after {
+}.gradient-nav a:not(:last-child)::after {
     content: "－";
     color: rgba(0, 103, 255, 0.4);
-    margin-left: 1rem;
+    margin-left: 0rem;
     font-weight: 300;
     display: inline-block;
     transform: scale(1.4);
-}
-
-@media (max-width: 768px) {
+}@media (max-width: 768px) {
     .gradient-nav a {
         font-size: 0.9rem;
         padding: 0.2rem 0.5rem;
