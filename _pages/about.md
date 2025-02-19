@@ -64,18 +64,16 @@ h1, h2 {
 .bio {
     line-height: 1.6;
     font-size: 1.05rem;
-    color: #444;
     padding: 1.5rem;
-    background: #f8faff;
-    border-radius: 12px;
+    border-radius: 5px;
     border: 1px solid rgba(0,103,255,0.1);
 }
 
 /* 新闻时间线设计 */
 .news-item {
     position: relative;
-    padding: 1.2rem 0 1.2rem 2rem;
-    border-left: 2px solid #e3f2fd;
+    padding: 1.1rem 0 1.1rem 2rem;
+    border-left: 2px solid rgba(0, 8, 247, 0.25);
     margin-left: 1rem;
 }
 
@@ -84,7 +82,6 @@ h1, h2 {
     position: absolute;
     left: -1.1rem;
     top: 1.4rem;
-    background: white;
     padding: 2px;
 }
 
@@ -94,22 +91,6 @@ h1, h2 {
     margin-bottom: 0.5rem;
 }
 
-/* 响应式优化 */
-@media (max-width: 768px) {
-    .container {
-        padding: 1rem;
-    }
-    
-    .gradient-nav a {
-        font-size: 0.92rem;
-        padding: 0.6rem;
-        margin: 0.2rem;
-    }
-    
-    .gradient-nav a:not(:last-child)::after {
-        margin: 0 0.5rem;
-    }
-}
 </style>
 
 <div class="gradient-nav" align="center">
