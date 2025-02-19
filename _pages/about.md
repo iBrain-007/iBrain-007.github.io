@@ -57,6 +57,11 @@ redirect_from:
     padding: 1.2rem;
     border-radius:8px;
     border: 1px solid rgba(0,103,255,0.1);
+    text-align: justify;      /* 基础两端对齐 */
+    text-justify: inter-word; /* 优化单词间距 */
+    hyphens: auto;            /* 启用自动断字 */
+    -webkit-hyphens: auto;    /* Safari兼容 */
+    -ms-hyphens: auto;        /* IE兼容 */
 }
 
 /* 新闻时间线设计 */
@@ -78,6 +83,13 @@ redirect_from:
     color: #666;
     font-size: 0.95rem;
     margin-bottom: 0.2rem;
+}
+
+@media (max-width: 768px) {
+    .bio {
+        text-align-last: left; /* 最后一行左对齐 */
+        hyphens: none;         /* 禁用断字 */
+    }
 }
 
 </style>
