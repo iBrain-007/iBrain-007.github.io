@@ -28,9 +28,11 @@ redirect_from:
     font-family: 'Inter', system-ui, sans-serif;
     font-weight: 600;
     text-decoration: none;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    padding: 0.8rem 1.2rem;
     border-radius: 8px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
