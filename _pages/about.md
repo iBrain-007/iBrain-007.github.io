@@ -63,7 +63,7 @@ redirect_from:
 /* 新闻时间线设计 */
 .news-item {
     position: relative;
-    padding: 1.1rem 0 1.1rem 2rem;
+    padding: 0 0 1.1rem 2rem;
     border-left: 2px solid rgba(0, 8, 247, 0.25);
     margin-left: 1rem;
 }
