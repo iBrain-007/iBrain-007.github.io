@@ -32,8 +32,8 @@ redirect_from:
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    padding: 0.8rem 1.2rem;
-    border-radius: 8px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -44,9 +44,9 @@ redirect_from:
     box-shadow: 0 4px 12px rgba(0,103,255,0.15);
 }
 
-.gradient-nav a:not(:last-child)::after {
-    content: "|";
+.gradient-nav a:not(:last-child) {
     color: rgba(0,103,255,0.2);
+    margin: 1rem 1rem;
     transform: scale(1.2);
 }
 
@@ -57,11 +57,6 @@ redirect_from:
     padding: 1rem 1rem;
 }
 
-/* 标题样式增强 */
-h1, h2 {
-    font-family: 'Inter', system-ui, sans-serif;
-    margin: 2rem 0 1.5rem;
-}
 
 /* 传记段落优化 */
 .bio {
