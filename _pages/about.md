@@ -27,7 +27,6 @@ redirect_from:
     font-family: 'Inter', system-ui, sans-serif;
     font-weight: 600;
     text-decoration: none;
-    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -45,7 +44,6 @@ redirect_from:
 .gradient-nav a:not(:last-child)::after {
     content: "|";
     color: rgba(0,103,255,0.2);
-    margin: 0 1rem;
     transform: scale(1.2);
 }
 
@@ -53,20 +51,18 @@ redirect_from:
 .container {
     max-width: 880px;
     margin: 0 auto;
-    padding: 2rem 1.5rem;
+    padding: 1rem 1rem;
 }
 
 /* 标题样式增强 */
 h1, h2 {
     font-family: 'Inter', system-ui, sans-serif;
-    border-left: 4px solid var(--accent-color);
-    padding-left: 1.2rem;
     margin: 2rem 0 1.5rem;
 }
 
 /* 传记段落优化 */
 .bio {
-    line-height: 1.8;
+    line-height: 1.6;
     font-size: 1.05rem;
     color: #444;
     padding: 1.5rem;
