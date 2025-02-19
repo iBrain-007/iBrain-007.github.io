@@ -8,33 +8,112 @@ redirect_from:
 ---
 
 <style>
+:root {
+    --gradient-start: #FF00D4;
+    --gradient-end: #00FFEE;
+    --accent-color: #2A7FFF;
+}
+
+/* 增强导航栏设计 */
 .gradient-nav {
-    --gradient-start:rgb(255, 0, 212);
-    --gradient-end:rgb(0, 255, 238);
-    padding: 0rem 0;
-}.gradient-nav a {
-    font-family: 'Segoe UI', sans-serif;
+    padding: 1.5rem 0;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 4px 20px rgba(0,103,255,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.gradient-nav a {
+    font-family: 'Inter', system-ui, sans-serif;
     font-weight: 600;
     text-decoration: none;
     background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    position: relative;
-    transition: all 0.3s ease;
-}.gradient-nav a:hover {
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gradient-nav a:hover {
     transform: translateY(-2px);
-    text-shadow: 0 4px 12px rgba(0, 103, 255, 0.3);
-}.gradient-nav a:not(:last-child)::after {
-    content: "－";
-    color: rgba(0, 103, 255, 0.4);
-    font-weight: 600;
-    display: inline-block;
-    transform: scale(1.4);
-}@media (max-width: 768px) {
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(0,103,255,0.15);
+}
+
+.gradient-nav a:not(:last-child)::after {
+    content: "|";
+    color: rgba(0,103,255,0.2);
+    margin: 0 1rem;
+    transform: scale(1.2);
+}
+
+/* 内容容器优化 */
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+/* 标题样式增强 */
+h1, h2 {
+    font-family: 'Inter', system-ui, sans-serif;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 1.2rem;
+    margin: 2rem 0 1.5rem;
+}
+
+/* 传记段落优化 */
+.bio {
+    line-height: 1.8;
+    font-size: 1.05rem;
+    color: #444;
+    padding: 1.5rem;
+    background: #f8faff;
+    border-radius: 12px;
+    border: 1px solid rgba(0,103,255,0.1);
+}
+
+/* 新闻时间线设计 */
+.news-item {
+    position: relative;
+    padding: 1.2rem 0 1.2rem 2rem;
+    border-left: 2px solid #e3f2fd;
+    margin-left: 1rem;
+}
+
+.news-item::before {
+    content: "📌";
+    position: absolute;
+    left: -1.1rem;
+    top: 1.4rem;
+    background: white;
+    padding: 2px;
+}
+
+.news-date {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
     .gradient-nav a {
-        font-size: 0.9rem;
-        padding: 0.2rem 0.5rem;
+        font-size: 0.92rem;
+        padding: 0.6rem;
+        margin: 0.2rem;
+    }
+    
+    .gradient-nav a:not(:last-child)::after {
+        margin: 0 0.5rem;
     }
 }
 </style>
@@ -46,18 +125,36 @@ redirect_from:
     <a>AI in Healthcare</a>
     <a>Multi-modal</a>
 </div>
----
+
+<div class="container">
 
 # Biography
 
-<p style="text-indent:2em; text-align: justify; text-justify:inter-word">
-Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan University of Science and Technology in 2017, followed by an M.Sc. degree in Software Engineering from the same institution in 2020. He completed his Ph.D. in Mechanical Manufacturing and Automation at the University of Chinese Academy of Sciences in 2024 under the supervision of Prof. <a href="https://ytianzhao.github.io/">Yitian Zhao</a>. His research interests focus on intelligent medical imaging analysis and the innovative application of artificial intelligence in healthcare. His work primarily encompasses multimodal data analysis and the development of intelligent algorithms based on fundus imaging. By integrating deep learning techniques with radiomics approaches, he aims to identify early biomarkers of cardiovascular and cerebrovascular diseases and to develop clinically applicable disease risk prediction models and computer-aided diagnostic systems.
+<p class="bio">
+Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan University of Science and Technology in 2017, followed by an M.Sc. degree in Software Engineering from the same institution in 2020. He completed his Ph.D. in Mechanical Manufacturing and Automation at the University of Chinese Academy of Sciences in 2024 under the supervision of Prof. <a href="https://ytianzhao.github.io/" style="color: var(--accent-color); text-decoration: underline;">Yitian Zhao</a>. His research interests focus on intelligent medical imaging analysis and the innovative application of artificial intelligence in healthcare. His work primarily encompasses multimodal data analysis and the development of intelligent algorithms based on fundus imaging. By integrating deep learning techniques with radiomics approaches, he aims to identify early biomarkers of cardiovascular and cerebrovascular diseases and to develop clinically applicable disease risk prediction models and computer-aided diagnostic systems.
 </p>
-
 
 # About me
 
-- Associate Editor
+<div style="background: #f3f9ff; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
+- 🖋️ **Associate Editor** - *IEEE Transactions on Medical Imaging* (2024-Present)
+</div>
+
+# News
+
+<div class="news-item">
+    <div class="news-date">2025/02/15</div>
+    One paper has been accepted by <strong>Journal of Biomedical and Health Informatics (JHBI)</strong> <span style="color: #2A7FFF;">[OCT/Segmentation]</span>
+</div>
+
+<div class="news-item">
+    <div class="news-date">2025/02/08</div>
+    Two papers accepted by <strong>IEEE TMI 2025</strong> and <strong>TSIPN 2025</strong> <span style="color: #2A7FFF;">[DSA/Segmentation]</span> <span style="color: #00C853;">[MRI/Diagnosis]</span>
+</div>
+
+<!-- 其他新闻条目保持相同结构 -->
+
+</div>
 
 ---
 
