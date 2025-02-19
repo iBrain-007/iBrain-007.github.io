@@ -139,4 +139,3 @@ Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan Univers
     <div class="news-date">2024/12/04</div>
     One paper has beed accepted by <strong>IEEE Transactions on Medical Imaging (TMI) <span style="color: #2A7FFF;">[TOF-MRA/Segmentation]</span>
 </div>
-
