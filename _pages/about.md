@@ -18,6 +18,7 @@ redirect_from:
 .gradient-nav {
     padding: 1.5rem 0;
     background: rgba(255,255,255,0.95);
+    box-shadow: 0 4px 20px rgba(0,103,255,0.08);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -43,9 +44,9 @@ redirect_from:
     box-shadow: 0 4px 12px rgba(0,103,255,0.15);
 }
 
-.gradient-nav a:not(:last-child) {
+.gradient-nav a::after {
     color: rgba(0,103,255,0.2);
-    margin: 1rem 1rem;
+    margin: 0 1rem;
     transform: scale(1.2);
 }
 
