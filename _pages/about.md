@@ -124,21 +124,35 @@ Dr. Lei Mou received his B.Sc. degree in Information Security from Wuhan Univers
 
 <div class="news-item">
     <div class="news-date">2025/02/08</div>
-    Two papers accepted by <strong>IEEE TMI 2025</strong> and <strong>TSIPN 2025</strong> <span style="color: #2A7FFF;">[DSA/Segmentation]</span> <span style="color: #00C853;">[MRI/Diagnosis]</span>
+    One paper has beed accepted by <strong>IEEE Transactions on Medical Imaging (TMI) <span style="color: #2A7FFF;">[DSA/Segmentation]</span>
+</div>
+
+<div class="news-item">
+    <div class="news-date">2025/02/08</div>
+    One paper has beed accepted by <strong>IEEE Transactions on Signal and Information Processing over Networks (TSIPN) <span style="color: #00C853;">[MRI/Diagnosis]</span>
+</div>
+
+<div class="news-item">
+    <div class="news-date">2025/01/28</div>
+    One paper has beed accepted by <strong>Frontiers in Cell and Developmental Biology <span style="color: #2A7FFF;">[OCT/Segmentation]</span>
+</div>
+
+<div class="news-item">
+    <div class="news-date">2025/01/16</div>
+    One paper has beed accepted by <strong>IEEE Transactions on Medical Imaging (TMI) <span style="color: #2A7FFF;">[OCT/Segmentation]</span>
+</div>
+
+<div class="news-item">
+    <div class="news-date">2025/01/03</div>
+    One paper has beed accepted by <strong>IEEE International Symposium on Biomedical Imaging (ISBI2025) <span style="color: #2A7FFF;">[IVCM/Segmentation]</span>
+</div>
+
+<div class="news-item">
+    <div class="news-date">2024/12/04</div>
+    One paper has beed accepted by <strong>IEEE Transactions on Medical Imaging (TMI) <span style="color: #2A7FFF;">[TOF-MRA/Segmentation]</span>
 </div>
 
 <!-- 其他新闻条目保持相同结构 -->
 
 </div>
 
----
-
-# News
-
-- 2025/02/15: One paper has been accepted by **Journal of Biomedical and Health Informatics** (**JHBI**) [<font color=blue>OCT / Segmenation</font>]
-- 2025/02/08: One paper has been accepted by **IEEE Transactions on Medical Imaging** (**TMI 2025**) <font color=blue>[DSA / Segmentation]</font>
-- 2025/02/08: One paper has been accepted by **IEEE Transactions on Signal and Information Processing over Networks** (**TSIPN 2025**) <font color=green>[MRI / Diagnosis]</font>
-- 2025/01/28: One paper has been accepted by **Frontiers in Cell and Developmental Biology** <font color=blue>[OCT / Segmentation]</font>
-- 2025/01/16: One paper has been accepted by **IEEE Transactions on Medical Imaging** (**TMI 2025**) <font color=blue>[OCT / Segmentation]</font>
-- 2025/01/03: One paper has been accepted by **IEEE International Symposium on Biomedical Imaging** (**ISBI 2025**) <font color=blue>[IVCM / Segmentation]</font>
-- 2024/12/04: One paper has been accepted by **IEEE Transactions on Medical Imaging** (**TMI 2024**) <font color=blue>[TOF-MRA / Segmentation]</font>
