@@ -107,7 +107,7 @@ author_profile: true
 
 <strong>Mou Lei</strong>, Zhao Yitian, Chen Li, et al. <strong>CS-Net: Channel and spatial attention network for curvilinear structure segmentation</strong>  
 <i>Medical Image Computing and Computer Assisted Intervention (MICCAI) 2019</i> <br />
-<span class="impact-factor" hrf="https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80">Paper</span> <span class="code_repo">Code</span> <span class="dataset">Dataset</span>
+<span class="impact-factor"><a hrf="https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80">Paper</a></span> <span class="code_repo">Code</span> <span class="dataset">Dataset</span>
 
 <div class="badge-group">
 [![](https://img.shields.io/badge/📄_Paper-00599C?style=flat)](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80){: .badge .paper-badge}
