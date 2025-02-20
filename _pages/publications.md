@@ -105,54 +105,41 @@ author_profile: true
 
 <div class="publication-card">
 
-<strong>Mou Lei</strong>, Zhao Yitian, Chen Li, et al. <strong>CS-Net: Channel and spatial attention network for curvilinear structure segmentation</strong>  
-<i>Medical Image Computing and Computer Assisted Intervention (MICCAI) 2019</i> <br />
-<span class="impact-factor"><a hrf="https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80">Paper</a></span> <span class="code_repo">Code</span> <span class="dataset">Dataset</span>
+<strong>Mou Lei</strong>, Zhao Yitian, Chen Li, et al. <strong>CS-Net: Channel and spatial attention network for curvilinear structure segmentation.</strong> <i>Medical Image Computing and Computer Assisted Intervention (MICCAI) 2019</i>
 
 <div class="badge-group">
-[![](https://img.shields.io/badge/📄_Paper-00599C?style=flat)](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80){: .badge .paper-badge}
-[![](https://img.shields.io/badge/💻_Code-FF6600?style=flat)](https://github.com/iMED-Lab/CS-Net){: .badge .code-badge}
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80" class="badge paper-badge">
+        📄 Paper
+    </a>
+    <a href="https://github.com/iMED-Lab/CS-Net" class="badge code-badge">
+        💻 Code
+    </a>
+    <a href="https://zenodo.org/records/12776091" class="badge dataset-badge">
+        📦 Dataset
+    </a>
 </div>
 </div>
+
+
 
 <div class="publication-card">
 
-**Mou Lei**, Zhao Yitian, Fu Huazhu, et al. **CS$^2$-Net: Deep learning segmentation of curvilinear structures in medical imaging**  
-*Medical Image Analysis 2021*  
-<span class="impact-factor">IF: 10.9</span>
+<strong>Mou Lei</strong>, Zhao Yitian, Fu Huazhu, et al. <strong>CS2-Net: Deep learning segmentation of curvilinear structures in medical imaging.</strong> <i>Medical Image Analysis</i>
 
 <div class="badge-group">
-[![](https://img.shields.io/badge/📄_Paper-00599C)](https://www.sciencedirect.com/science/article/abs/pii/S1361841520302383){: .badge .paper-badge}
-[![](https://img.shields.io/badge/💻_Code-FF6600)](https://github.com/iMED-Lab/CS-Net){: .badge .code-badge}
-[![](https://img.shields.io/badge/📦_Dataset-CORN--1500-red)](https://zenodo.org/records/12776091){: .badge .dataset-badge}
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841520302383" class="badge paper-badge">
+        📄 Paper
+    </a>
+    <a href="https://github.com/iMED-Lab/CS-Net" class="badge code-badge">
+        💻 Code
+    </a>
+    <a href="https://zenodo.org/records/12776091" class="badge dataset-badge">
+        📦 Dataset
+    </a>
 </div>
 </div>
+
+
 
 <!-- 其他精选文献保持相同结构 -->
-
----
-
-## 📑 All Publications
-
-<div class="publication-card">
-
-1. **Mou Lei**, et al. CS-Net: Channel and spatial attention network...  
-   *MICCAI 2019*  
-   <div class="badge-group">
-   [Paper](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80){: .badge .paper-badge}
-   [Code](https://github.com/iMED-Lab/CS-Net){: .badge .code-badge}
-   </div>
-</div>
-
-<div class="publication-card">
-
-2. **Mou Lei**, et al. CS2-Net: Deep learning segmentation...  
-   *MedIA 2021*  
-   <div class="badge-group">
-   [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841520302383){: .badge .paper-badge}
-   [Dataset](https://zenodo.org/records/12776091){: .badge .dataset-badge}
-   </div>
-</div>
-
-<!-- 其他文献保持相同结构 -->
 
