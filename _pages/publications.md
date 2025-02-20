@@ -19,12 +19,11 @@ author_profile: true
 <style>
 .publication-card {
     background: white;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin: 1.5rem 0;
+    border-radius: 10px;
+    padding: 1.0rem;
+    margin: 1.0rem 0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s;
-    border-left: 4px solid #2c3e50;
 }
 
 .publication-card:hover {
@@ -56,36 +55,6 @@ author_profile: true
 .paper-badge { background: #00599c; color: white; }
 .code-badge { background: #FF6600; color: white; }
 .dataset-badge { background: #CC0000; color: white; }
-
-.impact-factor {
-    background: #27ae60;
-    color: white;
-    padding: 0.2rem 0.5rem;
-    border-radius: 3px;
-    font-size: 0.8em;
-    margin-left: 0.5rem;
-    vertical-align: middle;
-}
-
-.code_repo {
-    background:rgb(22, 24, 165);
-    color: white;
-    padding: 0.2rem 0.5rem;
-    border-radius: 3px;
-    font-size: 0.8em;
-    margin-left: 0.5rem;
-    vertical-align: middle;
-}
-
-.dataset {
-    background:rgb(174, 39, 93);
-    color: white;
-    padding: 0.2rem 0.5rem;
-    border-radius: 3px;
-    font-size: 0.8em;
-    margin-left: 0.5rem;
-    vertical-align: middle;
-}
 
 @media (max-width: 768px) {
     .publication-card {
