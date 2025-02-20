@@ -41,7 +41,7 @@ author_profile: true
 .badge {
     display: inline-flex;
     align-items: center;
-    padding: 0.3rem 0.8rem;
+    padding: 0.2rem 0.8rem;
     border-radius: 20px;
     font-size: 0.9em;
     text-decoration: none;
@@ -104,7 +104,6 @@ author_profile: true
 ## 🏆 Selected Publications
 
 <div class="publication-card">
-
 <strong>Mou Lei</strong>, Zhao Yitian, Chen Li, et al. <strong>CS-Net: Channel and spatial attention network for curvilinear structure segmentation.</strong> <i>Medical Image Computing and Computer Assisted Intervention (MICCAI) 2019</i>
 
 <div class="badge-group">
@@ -123,7 +122,6 @@ author_profile: true
 
 
 <div class="publication-card">
-
 <strong>Mou Lei</strong>, Zhao Yitian, Fu Huazhu, et al. <strong>CS2-Net: Deep learning segmentation of curvilinear structures in medical imaging.</strong> <i>Medical Image Analysis</i>
 
 <div class="badge-group">
@@ -141,8 +139,7 @@ author_profile: true
 
 
 <div class="publication-card">
-
-<strong>Mou Lei</strong>, Qi Hong, Zhao Yifan, et al. <strong>DeepGrading: deep learning grading of corneal nerve tortuosity.</strong> <i>IEEE Transactions on Medical Imaging</i>
+<strong>Mou Lei</strong>, Qi Hong, Liu Yonghuai, et al. <strong>DeepGrading: deep learning grading of corneal nerve tortuosity.</strong> <i>IEEE Transactions on Medical Imaging</i>
 
 <div class="badge-group">
     <a href="https://ieeexplore.ieee.org/document/9729201" style="text-decoration: none;" class="badge paper-badge">
@@ -152,6 +149,23 @@ author_profile: true
       Code
     </a>
     <a href="https://zenodo.org/records/12776091" style="text-decoration: none;" class="badge dataset-badge">
+      Dataset
+    </a>
+</div>
+</div>
+
+
+<div class="publication-card">
+<strong>Mou Lei</strong>, Lin Jinghui, Zhao Yifan, et al. <strong>COSTA: A Multi-center TOF-MRA Dataset and A Style Self-Consistency Network for Cerebrovascular Segmentation.</strong> <i>IEEE Transactions on Medical Imaging</i>
+
+<div class="badge-group">
+    <a href="https://ieeexplore.ieee.org/document/10599360" style="text-decoration: none;" class="badge paper-badge">
+      Paper
+    </a>
+    <a href="https://github.com/iMED-Lab/COSTA" style="text-decoration: none;" class="badge code-badge">
+      Code
+    </a>
+    <a href="https://zenodo.org/records/11025761" style="text-decoration: none;" class="badge dataset-badge">
       Dataset
     </a>
 </div>
