@@ -20,7 +20,7 @@ author_profile: true
 .publication-card {
     background: white;
     border-radius: 10px;
-    padding: 1.0rem;
+    padding: 0.8rem;
     margin: 1.0rem 0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s;
@@ -42,18 +42,18 @@ author_profile: true
     align-items: center;
     padding: 0.2rem 0.8rem;
     border-radius: 20px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-decoration: none;
     transition: opacity 0.3s;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 .badge:hover {
-    opacity: 0.85;
+    opacity: 0.95;
 }
 
 .paper-badge { background: #00599c; color: white; }
-.code-badge { background: #FF6600; color: white; }
+.code-badge { background: #FF7F00; color: white; }
 .dataset-badge { background: #CC0000; color: white; }
 
 @media (max-width: 768px) {
