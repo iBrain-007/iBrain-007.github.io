@@ -140,6 +140,24 @@ author_profile: true
 </div>
 
 
+<div class="publication-card">
+
+<strong>Mou Lei</strong>, Qi Hong, Zhao Yifan, et al. <strong>DeepGrading: deep learning grading of corneal nerve tortuosity.</strong> <i>IEEE Transactions on Medical Imaging</i>
+
+<div class="badge-group">
+    <a href="https://ieeexplore.ieee.org/document/9729201" style="text-decoration: none;" class="badge paper-badge">
+      Paper
+    </a>
+    <a href="https://github.com/iMED-Lab/TortuosityGrading" style="text-decoration: none;" class="badge code-badge">
+      Code
+    </a>
+    <a href="https://zenodo.org/records/12776091" style="text-decoration: none;" class="badge dataset-badge">
+      Dataset
+    </a>
+</div>
+</div>
+
+
 
 <!-- 其他精选文献保持相同结构 -->
 
