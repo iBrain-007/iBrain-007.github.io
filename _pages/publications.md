@@ -21,7 +21,7 @@ author_profile: true
     background: white;
     border-radius: 10px;
     padding: 0.8rem;
-    margin: 1.0rem 0;
+    margin: 0.5rem 0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s;
 }
