@@ -110,10 +110,10 @@ author_profile: true
     <a href="https://link.springer.com/chapter/10.1007/978-3-030-32239-7_80" style="text-decoration: none;" class="badge paper-badge">
       Paper
     </a>
-    <a href="https://github.com/iMED-Lab/CS-Net" class="badge code-badge">
+    <a href="https://github.com/iMED-Lab/CS-Net" style="text-decoration: none;" class="badge code-badge">
       Code
     </a>
-    <a href="https://zenodo.org/records/12776091" class="badge dataset-badge">
+    <a href="https://zenodo.org/records/12776091" style="text-decoration: none;" class="badge dataset-badge">
       Dataset
     </a>
 </div>
@@ -128,10 +128,10 @@ author_profile: true
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841520302383" style="text-decoration: none;" class="badge paper-badge">
       Paper
     </a>
-    <a href="https://github.com/iMED-Lab/CS-Net" class="badge code-badge">
+    <a href="https://github.com/iMED-Lab/CS-Net" style="text-decoration: none;" class="badge code-badge">
       Code
     </a>
-    <a href="https://zenodo.org/records/12776091" class="badge dataset-badge">
+    <a href="https://zenodo.org/records/12776091" style="text-decoration: none;" class="badge dataset-badge">
       Dataset
     </a>
 </div>
